@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOPMAN — Produk Pria Asal Korea | Lebih Tahan Lama & Percaya Diri</title>
+    <meta name="description" content="TOPMAN, produk oles pria asal Korea untuk membantu pria lebih tahan lama tanpa kebas dan tanpa sensasi panas. Privasi terjaga dan gratis ongkir Jawa & Bali.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0A0B0E',
+                            card: '#12151C',
+                            border: '#2A2E3A',
+                            gold: '#D4AF37',
+                            goldLight: '#F3E5AB',
+                            goldHover: '#B59228',
+                            accent: '#C5A059',
+                            muted: '#94A3B8'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        serif: ['Cinzel', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            background-color: #0A0B0E;
+            color: #F1F5F9;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFF0CA 0%, #D4AF37 50%, #AA820A 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gold-btn-gradient {
+            background: linear-gradient(135deg, #E5C158 0%, #C5A059 50%, #9E7B32 100%);
+            transition: all 0.3s ease;
+        }
+
+        .gold-btn-gradient:hover {
+            background: linear-gradient(135deg, #F4E0A5 0%, #D4AF37 50%, #B59228 100%);
+            box-shadow: 0 10px 25px -5px rgba(212, 175, 55, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .gold-border-glow {
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.05);
+        }
+
+        .gold-border-glow:hover {
+            border-color: rgba(212, 175, 55, 0.6);
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.15);
+        }
+
+        .pulse-subtle {
+            animation: pulseSubtle 2.5s infinite;
+        }
+
+        @keyframes pulseSubtle {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        .glass-card {
+            background: rgba(18, 21, 28, 0.85);
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-gold selection:text-black">
+
+    <!-- TOP NOTIFICATION BANNER -->
+    <div class="bg-gradient-to-r from-amber-950 via-zinc-900 to-amber-950 border-b border-amber-500/20 text-amber-200/90 text-xs sm:text-sm py-2.5 px-4 text-center font-medium tracking-wide">
+        <div class="max-w-6xl mx-mx-auto flex items-center justify-center gap-2">
+            <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+            <span>Garansi 100% Original Korea • Gratis Ongkir Pulau Jawa & Bali • Privasi Terjamin</span>
+        </div>
+    </div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="sticky top-0 z-40 bg-brand-dark/90 backdrop-blur-md border-b border-white/5 py-4 px-4 sm:px-8">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-400 to-amber-700 p-0.5 flex items-center justify-center shadow-lg">
+                    <div class="w-full h-full bg-brand-dark rounded-[7px] flex items-center justify-center">
+                        <span class="font-serif font-bold text-lg text-brand-gold">T</span>
+                    </div>
+                </div>
+                <div>
+                    <span class="font-serif font-bold text-xl tracking-wider text-white block leading-none group-hover:text-brand-gold transition-colors">TOPMAN</span>
+                    <span class="text-[9px] uppercase tracking-[0.2em] text-brand-gold font-medium block mt-0.5">Korean Men's Care</span>
+                </div>
+            </a>
+            <a href="https://wa.me/6283176720399" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-brand-gold/40 text-brand-gold text-xs font-semibold tracking-wider uppercase hover:bg-brand-gold hover:text-black transition-all duration-300">
+                <i class="fa-brands fa-whatsapp text-sm">text</i>
+                <span>Konsultasi Privat</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECTION 1: HERO SECTION -->
+        <section class="relative pt-8 pb-16 md:pt-16 md:pb-24 overflow-hidden border-b border-white/5">
+            <!-- Subtle Radial Glow Backgrounds -->
+            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-amber-600/10 rounded-full blur-[120px] pointer-events-none"></div>
+            <div class="absolute bottom-0 right-0 w-[300px] h-[300px] bg-amber-500/5 rounded-full blur-[90px] pointer-events-none"></div>
+
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <!-- Hero Content Left -->
+                    <div class="lg:col-span-7 text-center lg:text-left">
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs font-medium tracking-wide mb-6">
+                            <span class="text-base">🇰🇷</span> Formula Eksklusif Korea
+                        </div>
+
+                        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight mb-5">
+                            Lebih Tahan Lama.<br>
+                            <span class="gold-gradient-text">Lebih Percaya Diri.</span>
+                        </h1>
+
+                        <p class="text-base sm:text-lg text-slate-300 font-light leading-relaxed mb-8 max-w-2xl mx-auto lg:mx-0">
+                            <strong class="text-white font-semibold">TOPMAN</strong> — Produk oles pria premium asal Korea yang dirancang untuk meningkatkan daya tahan secara alami tanpa rasa kebas, tanpa mati rasa, dan tanpa sensasi panas.
+                        </p>
+
+                        <!-- Price Highlight Hero -->
+                        <div class="flex items-center justify-center lg:justify-start gap-3 mb-6 bg-slate-900/60 border border-brand-gold/20 p-3.5 rounded-2xl max-w-md mx-auto lg:mx-0">
+                            <div class="text-left">
+                                <span class="text-xs text-slate-400 block uppercase tracking-wider font-medium">Harga Promo Hari Ini:</span>
+                                <div class="flex items-center gap-2.5 mt-0.5">
+                                    <span class="text-slate-400 line-through text-base font-semibold">Rp 250.000</span>
+                                    <span class="text-brand-gold font-black text-2xl sm:text-3xl tracking-tight">Rp 149.000</span>
+                                </div>
+                            </div>
+                            <span class="ml-auto bg-red-600/90 text-white text-xs font-extrabold px-3 py-1.5 rounded-xl uppercase tracking-wider shadow-lg">Hemat 40%</span>
+                        </div>
+
+                        <!-- Highlights Pills -->
+                        <div class="flex flex-wrap justify-center lg:justify-start gap-2.5 mb-8 text-xs sm:text-sm text-slate-300">
+                            <span class="bg-brand-card/90 border border-white/10 px-3.5 py-2 rounded-lg flex items-center gap-2">
+                                <i class="fa-solid fa-ban text-amber-400"></i> Tanpa Kebas
+                            </span>
+                            <span class="bg-brand-card/90 border border-white/10 px-3.5 py-2 rounded-lg flex items-center gap-2">
+                                <i class="fa-solid fa-temperature-arrow-down text-amber-400"></i> Tidak Panas
+                            </span>
+                            <span class="bg-brand-card/90 border border-white/10 px-3.5 py-2 rounded-lg flex items-center gap-2">
+                                <i class="fa-solid fa-user-shield text-amber-400"></i> 100% Privasi
+                            </span>
+                        </div>
+
+                        <!-- CTA Button -->
+                        <div class="space-y-3">
+                            <a href="https://wa.me/6283176720399" target="_blank" rel="noopener noreferrer" class="gold-btn-gradient text-slate-950 font-bold text-base sm:text-lg px-8 py-4 rounded-xl inline-flex items-center justify-center gap-3 w-full sm:w-auto shadow-2xl pulse-subtle group">
+                                <i class="fa-brands fa-whatsapp text-2xl text-slate-950 group-hover:scale-110 transition-transform"></i>
+                                <span>PESAN TOPMAN SEKARANG</span>
+                                <i class="fa-solid fa-arrow-right text-sm"></i>
+                            </a>
+                            <p class="text-xs text-slate-400 font-normal">
+                                ✨ Gratis Ongkir Jawa & Bali • Kemasan Privasi • Produk Original
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Hero Visual Right -->
+                    <div class="lg:col-span-5 flex justify-center">
+                        <div class="relative w-full max-w-md">
+                            <!-- Premium Glow Halo -->
+                            <div class="absolute -inset-1 bg-gradient-to-r from-amber-500/30 to-amber-700/30 rounded-3xl blur-2xl opacity-75"></div>
+                            
+                            <div class="relative glass-card border border-brand-gold/30 rounded-3xl p-4 sm:p-6 overflow-hidden shadow-2xl">
+                                <!-- Badge inside visual -->
+                                <div class="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md border border-amber-500/30 px-3 py-1.5 rounded-full text-[11px] font-semibold text-amber-300 flex items-center gap-1.5 z-20">
+                                    <i class="fa-solid fa-certificate text-amber-400"></i> Authentic Product
+                                </div>
+
+                                <div class="relative rounded-2xl overflow-hidden bg-black/40 mb-4">
+                                    <img src="image_77b142.jpg" alt="TOPMAN Product Packaging" class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700">
+                                </div>
+
+                                <div class="p-2 text-center">
+                                    <h3 class="font-serif font-bold text-xl text-white tracking-wide">TOPMAN KOREA</h3>
+                                    <p class="text-xs text-amber-400/90 font-medium tracking-widest uppercase mt-1">Premium Men's Intimate Cream</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: MASALAH -->
+        <section class="py-16 md:py-20 bg-gradient-to-b from-brand-dark via-brand-card/40 to-brand-dark border-b border-white/5">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6">
+                
+                <div class="text-center mb-12">
+                    <span class="text-amber-400/90 text-xs font-semibold uppercase tracking-widest block mb-2">Evaluasi Pengalaman</span>
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white tracking-tight">
+                        Ingin Lebih Percaya Diri Saat Bersama Pasangan?
+                    </h2>
+                    <div class="w-16 h-1 bg-gradient-to-r from-transparent via-brand-gold to-transparent mx-auto mt-4"></div>
+                </div>
+
+                <div class="space-y-4">
+                    <!-- Problem Item 1 -->
+                    <div class="bg-brand-card/70 border border-white/5 hover:border-amber-500/30 rounded-2xl p-5 sm:p-6 transition-all flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center shrink-0 text-amber-400 mt-0.5">
+                            <i class="fa-solid fa-battery-quarter text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-white text-base sm:text-lg mb-1">Kurang Percaya Diri Kapan Harus Selesai</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">Merasa momen spesial dengan pasangan terasa terlalu singkat sehingga menurunkan kenyamanan dan rasa percaya diri diri Anda.</p>
+                        </div>
+                    </div>
+
+                    <!-- Problem Item 2 -->
+                    <div class="bg-brand-card/70 border border-white/5 hover:border-amber-500/30 rounded-2xl p-5 sm:p-6 transition-all flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center shrink-0 text-amber-400 mt-0.5">
+                            <i class="fa-solid fa-sliders text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-white text-base sm:text-lg mb-1">Menginginkan Kontrol Ritme yang Lebih Baik</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">Ingin memegang kendali penuh atas durasi pertemuan tanpa terburu-buru, sehingga kedua belah pihak merasa puas.</p>
+                        </div>
+                    </div>
+
+                    <!-- Problem Item 3 -->
+                    <div class="bg-brand-card/70 border border-white/5 hover:border-amber-500/30 rounded-2xl p-5 sm:p-6 transition-all flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center shrink-0 text-amber-400 mt-0.5">
+                            <i class="fa-solid fa-eye-slash text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-white text-base sm:text-lg mb-1">Tidak Nyaman Dengan Efek Kebas / Mati Rasa</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">Pernah mencoba produk lain namun membuat sensasi hilang total sehingga kenikmatan berkurang drastis.</p>
+                        </div>
+                    </div>
+
+                    <!-- Problem Item 4 -->
+                    <div class="bg-brand-card/70 border border-white/5 hover:border-amber-500/30 rounded-2xl p-5 sm:p-6 transition-all flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center shrink-0 text-amber-400 mt-0.5">
+                            <i class="fa-solid fa-fire-flame-curved text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-white text-base sm:text-lg mb-1">Tidak Suka Sensasi Panas Menyengat</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">Khawatir atau risih dengan produk yang memberikan efek panas berlebih yang merusak suasana intim.</p>
+                        </div>
+                    </div>
+
+                    <!-- Problem Item 5 -->
+                    <div class="bg-brand-card/70 border border-white/5 hover:border-amber-500/30 rounded-2xl p-5 sm:p-6 transition-all flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center shrink-0 text-amber-400 mt-0.5">
+                            <i class="fa-solid fa-feather text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-white text-base sm:text-lg mb-1">Menginginkan Produk Praktis & Elegan</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">Mencari solusi topical premium yang mudah dioleskan, cepat meresap, dan aman digunakan kapan pun diperlukan.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 3: SOLUSI TOPMAN -->
+        <section class="py-16 md:py-24 relative overflow-hidden border-b border-white/5">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6">
+                
+                <div class="bg-gradient-to-br from-brand-card via-zinc-900 to-brand-card border border-brand-gold/30 rounded-3xl p-6 sm:p-10 md:p-12 relative shadow-2xl">
+                    <div class="absolute top-0 right-0 p-8 opacity-10 pointer-events-none">
+                        <i class="fa-solid fa-crown text-9xl text-amber-400"></i>
+                    </div>
+
+                    <div class="max-w-3xl">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold uppercase tracking-wider mb-4">
+                            Solusi Pria Modern
+                        </div>
+
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-6">
+                            Kenalkan <span class="gold-gradient-text">TOPMAN</span>
+                        </h2>
+
+                        <p class="text-slate-300 text-base sm:text-lg leading-relaxed mb-6 font-light">
+                            TOPMAN merupakan produk oles pria asal Korea yang dirancang secara cermat menggunakan formulasi khusus untuk membantu pria dewasa meningkatkan daya tahan dan rasa percaya diri tanpa mengorbankan kenyamanan.
+                        </p>
+
+                        <div class="bg-slate-950/80 border-l-4 border-brand-gold p-5 rounded-r-xl mb-8">
+                            <p class="text-amber-200 font-medium text-sm sm:text-base italic">
+                                "TOPMAN membantu menjaga ketahanan secara seimbang tanpa harus membuat area sensitif terasa kebas atau mati rasa. Sensasi keintiman tetap terasa alami dan nikmat."
+                            </p>
+                        </div>
+
+                        <!-- Highlights Grid -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+                            <div class="flex items-center gap-3 text-slate-200 text-sm">
+                                <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-check text-xs"></i>
+                                </div>
+                                <span>Rasa Alami Tetap Terjaga</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-slate-200 text-sm">
+                                <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-check text-xs"></i>
+                                </div>
+                                <span>Formula Lembut Di Kulit</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-slate-200 text-sm">
+                                <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-check text-xs"></i>
+                                </div>
+                                <span>Praktis Ditransfer</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 4: KEUNGGULAN TOPMAN (Grid 8 Cards) -->
+        <section class="py-16 md:py-24 bg-brand-dark border-b border-white/5">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                
+                <div class="text-center max-w-2xl mx-auto mb-14">
+                    <span class="text-brand-gold text-xs font-semibold uppercase tracking-widest block mb-2">Mengapa Memilih TOPMAN</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">8 Keunggulan Utama TOPMAN</h2>
+                    <p class="text-slate-400 text-sm sm:text-base mt-3">Diciptakan dengan keunggulan yang membedakannya dari produk pria biasa di pasaran.</p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                    
+                    <!-- Card 1 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl p-6 hover:border-amber-500/40 transition-all duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                            🇰🇷
+                        </div>
+                        <h3 class="font-bold text-white text-lg mb-2">Original Korea</h3>
+                        <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">Produk berkualitas tinggi yang diracik berdasarkan standar perawatan pria modern asal Korea.</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl p-6 hover:border-amber-500/40 transition-all duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-stopwatch"></i>
+                        </div>
+                        <h3 class="font-bold text-white text-lg mb-2">Bantu Tahan Lama</h3>
+                        <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">Membantu pria mendapatkan kendali ritme yang jauh lebih baik untuk sesi yang memuaskan.</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl p-6 hover:border-amber-500/40 transition-all duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                        </div>
+                        <h3 class="font-bold text-white text-lg mb-2">Tanpa Kebas</h3>
+                        <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">Tidak merusak sensasi sentuhan. Area intim tetap responsif dan menikmati setiap momen.</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl p-6 hover:border-amber-500/40 transition-all duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-snowflake"></i>
+                        </div>
+                        <h3 class="font-bold text-white text-lg mb-2">Tidak Panas</h3>
+                        <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">Nyaman digunakan tanpa rasa terbakar atau sensasi panas berlebih yang mengganggu pasangan.</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl p-6 hover:border-amber-500/40 transition-all duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3 class="font-bold text-white text-lg mb-2">Garansi Original</h3>
+                        <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">Jaminan 100% uang kembali jika produk yang Anda terima terbukti tidak original.</p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl p-6 hover:border-amber-500/40 transition-all duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-box-archive"></i>
+                        </div>
+                        <h3 class="font-bold text-white text-lg mb-2">Kemasan Discreet</h3>
+                        <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">Dikemas tertutup rapat tanpa deskripsi mencolok, menjaga kerahasiaan pesanan Anda.</p>
+                    </div>
+
+                    <!-- Card 7 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl p-6 hover:border-amber-500/40 transition-all duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <h3 class="font-bold text-white text-lg mb-2">Privasi Aman</h3>
+                        <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">Nama produk TOPMAN tidak dicantumkan pada label pengiriman kurir.</p>
+                    </div>
+
+                    <!-- Card 8 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl p-6 hover:border-amber-500/40 transition-all duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <h3 class="font-bold text-white text-lg mb-2">Gratis Ongkir</h3>
+                        <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">Bebas biaya pengiriman untuk seluruh wilayah Pulau Jawa dan Bali.</p>
+                    </div>
+
+                </div>
+
+                <!-- Mid-page CTA -->
+                <div class="mt-12 text-center">
+                    <a href="https://wa.me/6283176720399" target="_blank" rel="noopener noreferrer" class="gold-btn-gradient text-slate-950 font-bold text-base px-8 py-3.5 rounded-xl inline-flex items-center gap-3">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <span>PESAN TOPMAN SEKARANG VIA WHATSAPP</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 5: PRIVASI SELLER -->
+        <section class="py-16 md:py-24 bg-gradient-to-b from-zinc-950 via-slate-900 to-zinc-950 border-b border-white/5 relative">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6">
+                
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                    <div class="lg:col-span-5 flex justify-center">
+                        <div class="w-full max-w-sm bg-brand-card border border-brand-gold/30 rounded-3xl p-8 text-center relative overflow-hidden shadow-2xl">
+                            <div class="w-20 h-20 mx-auto rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-brand-gold text-4xl mb-6">
+                                <i class="fa-solid fa-user-shield"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mb-2">100% Privacy Protection</h3>
+                            <p class="text-xs text-slate-400">Kerahasian paket merupakan prioritas utama dalam layanan pengiriman kami.</p>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-7">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 text-amber-300 text-xs font-semibold uppercase tracking-wider mb-4">
+                            Jaminan Privasi
+                        </div>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-5 leading-tight">
+                            Pesan Tanpa Khawatir <br class="hidden sm:inline">
+                            <span class="gold-gradient-text">Privasi Terbongkar.</span>
+                        </h2>
+
+                        <p class="text-slate-300 text-base leading-relaxed mb-8 font-light">
+                            Kami sangat memahami bahwa produk perawatan pria adalah hal yang bersifat pribadi. Oleh karena itu, seluruh pengiriman TOPMAN dikemas menggunakan packaging discreet rapi, tanpa ada embel-embel nama produk maupun keterangan sensitif pada resi pengiriman.
+                        </p>
+
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-4 bg-slate-900/80 p-4 rounded-xl border border-white/5">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-lock text-lg"></i>
+                                </div>
+                                <span class="text-slate-200 text-sm font-medium">Privasi Terjaga 100% Selama Proses</span>
+                            </div>
+
+                            <div class="flex items-center gap-4 bg-slate-900/80 p-4 rounded-xl border border-white/5">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-box text-lg"></i>
+                                </div>
+                                <span class="text-slate-200 text-sm font-medium">Kemasan Polos & Rapi Tanpa Logo Produk</span>
+                            </div>
+
+                            <div class="flex items-center gap-4 bg-slate-900/80 p-4 rounded-xl border border-white/5">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-tag text-lg"></i>
+                                </div>
+                                <span class="text-slate-200 text-sm font-medium">Tidak Ada Nama TOPMAN Pada Label Resi Paketan</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 6: JAMINAN KEASLIAN -->
+        <section class="py-16 md:py-20 bg-brand-dark border-b border-white/5">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+                
+                <div class="inline-block p-4 rounded-full bg-amber-500/10 border border-amber-500/20 text-brand-gold text-3xl mb-4">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">
+                    100% Produk Original Korea
+                </h2>
+
+                <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto mb-8 font-light">
+                    Kami menjamin penuh bahwa produk TOPMAN yang Anda terima adalah produk original berkualitas. Jika produk yang Anda terima terbukti tidak original sesuai dengan ketentuan garansi, Anda berhak mendapatkan jaminan <strong class="text-amber-400 font-semibold">uang kembali 100%</strong>.
+                </p>
+
+                <!-- Trust Badges -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 max-w-2xl mx-auto pt-2">
+                    <div class="p-4 rounded-2xl bg-brand-card border border-white/5 flex flex-col items-center justify-center">
+                        <i class="fa-solid fa-shield-check text-2xl text-amber-400 mb-2"></i>
+                        <span class="text-xs font-bold text-white uppercase tracking-wider">Garansi Asli</span>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-brand-card border border-white/5 flex flex-col items-center justify-center">
+                        <i class="fa-solid fa-rotate-left text-2xl text-amber-400 mb-2"></i>
+                        <span class="text-xs font-bold text-white uppercase tracking-wider">Money Back</span>
+                    </div>
+
+                    <div class="col-span-2 sm:col-span-1 p-4 rounded-2xl bg-brand-card border border-white/5 flex flex-col items-center justify-center">
+                        <i class="fa-solid fa-award text-2xl text-amber-400 mb-2"></i>
+                        <span class="text-xs font-bold text-white uppercase tracking-wider">Korea Quality</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 7: GRATIS ONGKIR BANNER -->
+        <section class="py-12 md:py-16 bg-gradient-to-r from-amber-950 via-zinc-900 to-amber-950 border-b border-amber-500/30">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+                
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/20 text-amber-200 text-xs font-bold uppercase tracking-widest mb-4">
+                    <i class="fa-solid fa-truck-fast"></i> Penawaran Khusus Hari Ini
+                </div>
+
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tight mb-4">
+                    GRATIS ONGKIR JAWA & BALI 🚚
+                </h2>
+
+                <!-- Price Promo Badge -->
+                <div class="inline-flex items-center gap-3 bg-black/60 border border-amber-500/40 px-6 py-3 rounded-2xl mb-6 shadow-xl">
+                    <span class="text-slate-400 line-through text-base sm:text-lg font-medium">Rp 250.000</span>
+                    <span class="text-brand-gold font-black text-2xl sm:text-3xl">Rp 149.000</span>
+                    <span class="bg-red-600 text-white text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">Promo Spesial</span>
+                </div>
+
+                <p class="text-slate-200 text-base sm:text-lg mb-8 max-w-2xl mx-auto font-light">
+                    Pesan TOPMAN sekarang dan nikmati promo gratis biaya pengiriman ke seluruh kota dan pelosok di Pulau Jawa & Bali.
+                </p>
+
+                <a href="https://wa.me/6283176720399" target="_blank" rel="noopener noreferrer" class="gold-btn-gradient text-slate-950 font-bold text-base sm:text-lg px-8 py-4 rounded-xl inline-flex items-center justify-center gap-3 shadow-2xl">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span>PESAN SEKARANG VIA WHATSAPP</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- SECTION 8: CARA PEMESANAN -->
+        <section class="py-16 md:py-24 bg-brand-dark border-b border-white/5">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6">
+                
+                <div class="text-center max-w-xl mx-auto mb-14">
+                    <span class="text-brand-gold text-xs font-semibold uppercase tracking-widest block mb-2">Proses Praktis</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">3 Langkah Mudah Pemesanan</h2>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+                    
+                    <!-- Step 1 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl p-6 text-center relative">
+                        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-amber-700 text-slate-950 font-black text-xl flex items-center justify-center mx-auto mb-5 shadow-lg">
+                            1
+                        </div>
+                        <h3 class="font-bold text-white text-lg mb-2">Klik WhatsApp</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Hubungi customer care kami dengan menekan tombol order WhatsApp yang tersedia.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl p-6 text-center relative">
+                        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-amber-700 text-slate-950 font-black text-xl flex items-center justify-center mx-auto mb-5 shadow-lg">
+                            2
+                        </div>
+                        <h3 class="font-bold text-white text-lg mb-2">Konfirmasi Pesanan</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Tim kami akan memberikan detail informasi & membantu memproses pesanan Anda dengan cepat.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl p-6 text-center relative">
+                        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-amber-700 text-slate-950 font-black text-xl flex items-center justify-center mx-auto mb-5 shadow-lg">
+                            3
+                        </div>
+                        <h3 class="font-bold text-white text-lg mb-2">Produk Dikirim</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">TOPMAN langsung dikirim dalam kemasan discreet tertutup rapat demi menjaga privasi penuh Anda.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 9: FAQ -->
+        <section class="py-16 md:py-24 bg-gradient-to-b from-brand-dark via-slate-900/60 to-brand-dark border-b border-white/5">
+            <div class="max-w-3xl mx-auto px-4 sm:px-6">
+                
+                <div class="text-center mb-12">
+                    <span class="text-brand-gold text-xs font-semibold uppercase tracking-widest block mb-2">Pertanyaan Umum</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Frequently Asked Questions</h2>
+                </div>
+
+                <div class="space-y-3" id="faq-accordion">
+                    
+                    <!-- FAQ Item 1 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl overflow-hidden transition-all">
+                        <button class="w-full p-5 text-left font-semibold text-white flex justify-between items-center focus:outline-none faq-btn">
+                            <span class="text-sm sm:text-base pr-4">Apakah TOPMAN produk asli Korea?</span>
+                            <i class="fa-solid fa-chevron-down text-brand-gold text-xs transition-transform duration-300"></i>
+                        </button>
+                        <div class="px-5 pb-5 text-slate-400 text-xs sm:text-sm hidden leading-relaxed border-t border-white/5 pt-3">
+                            Ya, TOPMAN dipasarkan dan diracik sebagai produk perawatan pria berstandar tinggi asal Korea.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl overflow-hidden transition-all">
+                        <button class="w-full p-5 text-left font-semibold text-white flex justify-between items-center focus:outline-none faq-btn">
+                            <span class="text-sm sm:text-base pr-4">Apakah TOPMAN membuat kebas atau mati rasa?</span>
+                            <i class="fa-solid fa-chevron-down text-brand-gold text-xs transition-transform duration-300"></i>
+                        </button>
+                        <div class="px-5 pb-5 text-slate-400 text-xs sm:text-sm hidden leading-relaxed border-t border-white/5 pt-3">
+                            Tidak. TOPMAN diformulasikan khusus untuk membantu daya tahan tanpa sensasi kebas atau mati rasa, sehingga Anda dan pasangan tetap dapat menikmati sensitivitas sentuhan secara alami.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl overflow-hidden transition-all">
+                        <button class="w-full p-5 text-left font-semibold text-white flex justify-between items-center focus:outline-none faq-btn">
+                            <span class="text-sm sm:text-base pr-4">Apakah terasa panas saat digunakan?</span>
+                            <i class="fa-solid fa-chevron-down text-brand-gold text-xs transition-transform duration-300"></i>
+                        </button>
+                        <div class="px-5 pb-5 text-slate-400 text-xs sm:text-sm hidden leading-relaxed border-t border-white/5 pt-3">
+                            Tidak. TOPMAN dirancang halus di kulit tanpa sensasi rasa terbakar atau panas yang menyengat dan mengganggu kenyamanan.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl overflow-hidden transition-all">
+                        <button class="w-full p-5 text-left font-semibold text-white flex justify-between items-center focus:outline-none faq-btn">
+                            <span class="text-sm sm:text-base pr-4">Apakah nama TOPMAN tercantum di paket pengiriman?</span>
+                            <i class="fa-solid fa-chevron-down text-brand-gold text-xs transition-transform duration-300"></i>
+                        </button>
+                        <div class="px-5 pb-5 text-slate-400 text-xs sm:text-sm hidden leading-relaxed border-t border-white/5 pt-3">
+                            Tidak. Seluruh paket dikirim menggunakan kemasan polos dan discreet. Keterangan isi paket maupun nama produk TOPMAN tidak dicantumkan pada bagian luar resi.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl overflow-hidden transition-all">
+                        <button class="w-full p-5 text-left font-semibold text-white flex justify-between items-center focus:outline-none faq-btn">
+                            <span class="text-sm sm:text-base pr-4">Apakah tersedia garansi keaslian?</span>
+                            <i class="fa-solid fa-chevron-down text-brand-gold text-xs transition-transform duration-300"></i>
+                        </button>
+                        <div class="px-5 pb-5 text-slate-400 text-xs sm:text-sm hidden leading-relaxed border-t border-white/5 pt-3">
+                            Ya, kami memberikan jaminan garansi uang kembali apabila produk terbukti tidak original sesuai dengan syarat dan ketentuan garansi.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl overflow-hidden transition-all">
+                        <button class="w-full p-5 text-left font-semibold text-white flex justify-between items-center focus:outline-none faq-btn">
+                            <span class="text-sm sm:text-base pr-4">Apakah ongkos kirim gratis?</span>
+                            <i class="fa-solid fa-chevron-down text-brand-gold text-xs transition-transform duration-300"></i>
+                        </button>
+                        <div class="px-5 pb-5 text-slate-400 text-xs sm:text-sm hidden leading-relaxed border-t border-white/5 pt-3">
+                            Ya, gratis ongkir berlaku penuh untuk pengiriman ke seluruh lokasi di Pulau Jawa dan Bali.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="bg-brand-card border border-white/5 rounded-2xl overflow-hidden transition-all">
+                        <button class="w-full p-5 text-left font-semibold text-white flex justify-between items-center focus:outline-none faq-btn">
+                            <span class="text-sm sm:text-base pr-4">Bagaimana cara melakukan pemesanan?</span>
+                            <i class="fa-solid fa-chevron-down text-brand-gold text-xs transition-transform duration-300"></i>
+                        </button>
+                        <div class="px-5 pb-5 text-slate-400 text-xs sm:text-sm hidden leading-relaxed border-t border-white/5 pt-3">
+                            Cukup klik salah satu tombol WhatsApp di halaman ini dan hubungi tim layanan kami untuk proses pemesanan cepat dan aman.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 10: CTA TERAKHIR -->
+        <section class="py-20 md:py-28 bg-gradient-to-b from-brand-dark via-zinc-950 to-black relative overflow-hidden">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10">
+                
+                <span class="inline-block px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold uppercase tracking-widest mb-6">
+                    Mulai Perubahan Hari Ini
+                </span>
+
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-4 leading-tight">
+                    Saatnya Lebih Percaya Diri <br class="hidden sm:inline">
+                    <span class="gold-gradient-text">Bersama TOPMAN.</span>
+                </h2>
+
+                <!-- Price Display Final -->
+                <div class="flex items-center justify-center gap-3 mb-6">
+                    <span class="text-slate-400 line-through text-lg font-medium">Rp 250.000</span>
+                    <span class="text-brand-gold font-extrabold text-3xl sm:text-4xl">Rp 149.000</span>
+                    <span class="bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-bold px-3 py-1 rounded-full">Hemat Rp 101.000</span>
+                </div>
+
+                <p class="text-slate-300 text-base sm:text-lg mb-8 max-w-xl mx-auto font-light">
+                    Produk pria asal Korea • Tanpa kebas • Tidak panas • Privasi 100% terjaga.
+                </p>
+
+                <div class="space-y-4 max-w-md mx-auto">
+                    <a href="https://wa.me/6283176720399" target="_blank" rel="noopener noreferrer" class="gold-btn-gradient text-slate-950 font-extrabold text-lg px-8 py-4 rounded-2xl inline-flex items-center justify-center gap-3 w-full shadow-2xl">
+                        <i class="fa-brands fa-whatsapp text-2xl"></i>
+                        <span>PESAN TOPMAN SEKARANG</span>
+                    </a>
+
+                    <div class="pt-2 text-slate-300 text-sm">
+                        <p class="flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-phone text-amber-400 text-xs"></i>
+                            <span>WhatsApp CS: <strong class="text-white font-semibold">0831-7672-0399</strong></span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-black border-t border-white/10 py-12 px-4 sm:px-8 text-center text-xs text-slate-500">
+        <div class="max-w-4xl mx-auto space-y-4">
+            
+            <div class="flex items-center justify-center gap-2">
+                <span class="font-serif font-bold text-lg text-white">TOPMAN</span>
+                <span class="text-slate-600">|</span>
+                <span class="text-brand-gold uppercase tracking-wider text-[10px]">Korean Men's Care</span>
+            </div>
+
+            <p class="text-slate-400">
+                Layanan Pemesanan Resmi via WhatsApp: <a href="https://wa.me/6283176720399" class="text-amber-300 hover:underline">0831-7672-0399</a>
+            </p>
+
+            <p class="text-[11px] text-slate-600 max-w-md mx-auto">
+                Keterangan: Produk diperuntukkan bagi pria dewasa. Hasil dapat bervariasi pada setiap individu tergantung penggunaan yang teratur.
+            </p>
+
+            <div class="pt-4 border-t border-white/5 text-[10px] text-slate-600">
+                &copy; 2026 TOPMAN Korea. All rights reserved.
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/6283176720399" target="_blank" rel="noopener noreferrer" class="fixed bottom-5 right-5 z-50 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full p-3.5 sm:px-5 sm:py-3 shadow-2xl flex items-center gap-3 transition-all duration-300 hover:scale-105 border border-emerald-400/40 group">
+        <i class="fa-brands fa-whatsapp text-2xl sm:text-xl"></i>
+        <span class="hidden sm:inline font-bold text-xs uppercase tracking-wider">Pesan via WhatsApp</span>
+    </a>
+
+    <!-- FAQ ACCORDION SCRIPT -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqButtons = document.querySelectorAll('.faq-btn');
+            
+            faqButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.nextElementSibling;
+                    const icon = button.querySelector('i');
+                    
+                    // Toggle visibility
+                    const isHidden = content.classList.contains('hidden');
+                    
+                    // Close all
+                    document.querySelectorAll('#faq-accordion > div > div').forEach(el => el.classList.add('hidden'));
+                    document.querySelectorAll('#faq-accordion i').forEach(el => el.classList.remove('rotate-180'));
+                    
+                    if (isHidden) {
+                        content.classList.remove('hidden');
+                        icon.classList.add('rotate-180');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
